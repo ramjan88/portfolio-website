@@ -55,7 +55,6 @@ nav a {
 
 /* ---------------------------------------------------header content section--------------------------------------------------- */
 
-
 .head-content {
   width: 100%;
   display: flex;
@@ -79,19 +78,19 @@ nav a {
   font-size: 30px;
 }
 .content p {
-  font-size: 18px;
+  font-size: 16px;
   margin: 20px 0;
 }
 
 /* -------------------------------------------------------main section----------------------------------------------- */
 
-main{
+main {
   width: 100%;
 }
 
 /* --------------------------------------------- about content section----------------------------------------------- */
 
-.about-section{
+.about-section {
   width: 1100px;
   margin: 0 auto;
   text-align: center;
@@ -99,19 +98,18 @@ main{
   background-color: #fff8f3;
   border-radius: 10px;
   margin-bottom: 100px;
-
 }
 
-.about-section h2{
+.about-section h2 {
   font-size: 45px;
   margin-bottom: 10px;
 }
 
-.about-section p{
-font-size: 18px;
-margin-bottom: 40px;
+.about-section p {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
-.about-info{
+.about-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -120,24 +118,50 @@ margin-bottom: 40px;
 
 /* ---------------------------------------------what-i-do-section----------------------------------------------- */
 
-.what-i-do-section{
+.what-i-do-section {
   width: 1100px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 100px;
 }
+.what-i-do-content {
+  width: 100%;
+  padding: 0 200px;
+}
 
-.what-i-do-info{
+.what-i-do-content h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.what-i-do-content p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.what-i-do-info {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.what-i-do-con{
+.what-i-do-con {
   width: 30%;
   text-align: left;
-padding: 0 20px;
-margin: 2%;
-box-shadow: 1px 1px 8px #000;
+  padding: 0 20px;
+  margin: 1%;
+  box-shadow: 1px 1px 8px #000;
+  padding: 30px;
+}
+
+.what-i-do-con h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.what-i-do-con p {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5em;
 }
