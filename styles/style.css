@@ -168,8 +168,21 @@ main {
 }
 
 /* ----------------------------------summary of resume section----------------------------------------- */
+.resume-section{
+  width: 100%;
+  /* text-align: center; */
+}
 
-.resume-containar{
+.resume-title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+.resume-containar {
   display: flex;
+  width: 1100px;
+margin: 0 auto;
   gap: 24px;
 }
+
+
