@@ -48,6 +48,7 @@ nav a {
   background-color: #fd6e0a;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 .text-primary {
   color: #fd6e0a;
@@ -164,4 +165,11 @@ main {
   font-size: 16px;
   margin-top: 20px;
   line-height: 1.5em;
+}
+
+/* ----------------------------------summary of resume section----------------------------------------- */
+
+.resume-containar{
+  display: flex;
+  gap: 24px;
 }
