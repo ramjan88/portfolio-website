@@ -12,7 +12,6 @@
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  margin-bottom: 100px;
 }
 nav {
   display: flex;
@@ -86,19 +85,25 @@ nav a {
 /* -------------------------------------------------------main section----------------------------------------------- */
 
 main {
-  width: 100%;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 /* --------------------------------------------- about content section----------------------------------------------- */
 
 .about-section {
-  width: 1100px;
-  margin: 0 auto;
   text-align: center;
-  padding: 100px 150px;
+  padding: 130px;
   background-color: #fff8f3;
   border-radius: 10px;
-  margin-bottom: 100px;
+  margin: 130px 0;
 }
 
 .about-section h2 {
@@ -143,6 +148,7 @@ main {
 .what-i-do-info {
   display: flex;
   width: 100%;
+  gap: 25px;
   justify-content: center;
   align-items: center;
 }
@@ -151,7 +157,6 @@ main {
   width: 30%;
   text-align: left;
   padding: 0 20px;
-  margin: 1%;
   box-shadow: 1px 1px 8px #000;
   padding: 30px;
 }
@@ -170,14 +175,9 @@ main {
 /* ----------------------------------summary of resume section----------------------------------------- */
 .resume-section {
   width: 100%;
-  /* text-align: center; */
+  margin: 100px;
 }
 
-/* .resume-title{
-  text-align: center;
-  font-size: 35px;
-  margin-bottom: 100px;
-} */
 .resume-containar {
   display: flex;
   /* width: 1100px;
