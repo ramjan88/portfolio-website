@@ -231,7 +231,6 @@ textarea{
   display: block;
   margin-bottom: 20px;
   padding: 18px 30px;
-  color: #757575;
   border-radius:  5px;
   border: none;
 }
@@ -240,6 +239,7 @@ textarea{
 [type="email"] {
   width: 100%;
   font-size: 17px;
+  color: #757575;
   background-color: #fff;
 }
 
