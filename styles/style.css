@@ -196,7 +196,8 @@ main {
   margin-bottom: 10px;
 }
 
-.resume-item-discription, .resume-institute{
+.resume-item-discription,
+.resume-institute {
   color: #757575;
 }
 
@@ -207,4 +208,49 @@ main {
 .download-cv {
   text-align: center;
   margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+textarea{
+  height: 200px;
+}
+
+.footer-contract-form input, textarea{
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  padding: 18px 30px;
+  color: #757575;
+  border-radius:  5px;
+  border: none;
+}
+
+.footer-contract-form textarea, input[type="text"],
+[type="email"] {
+  width: 100%;
+  font-size: 17px;
+  background-color: #fff;
+}
+
+.footer-contract-title{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-discription{
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.social-link a{
+margin-right: 20px;
 }
