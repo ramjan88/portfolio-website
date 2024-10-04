@@ -230,15 +230,15 @@ textarea{
   position: relative;
   display: block;
   margin-bottom: 20px;
-  padding: 18px 30px;
-  border-radius:  5px;
-  border: none;
 }
 
 .footer-contract-form textarea, input[type="text"],
 [type="email"] {
   width: 100%;
   font-size: 17px;
+  padding: 18px 30px;
+  border-radius:  5px;
+  border: none;
   color: #757575;
   background-color: #fff;
 }
